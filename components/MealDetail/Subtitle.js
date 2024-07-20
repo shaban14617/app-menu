@@ -20,7 +20,7 @@ const styles = StyleSheet.create({
   listContainer: {
     borderBottomWidth: 2,
     borderBottomColor: 'white',
-    marginHorizontal: 12,
+    marginHorizontal: 40,
     marginVertical: 10,
     padding: 6,
   },

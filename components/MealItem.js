@@ -54,7 +54,7 @@ export default MealItem;
 const styles = StyleSheet.create({
   mealItem: {
     margin: 10,
-    borderRadius: 10,
+    borderRadius: 20,
     backgroundColor: 'white',
     overflow: Platform.OS === 'android' ? 'hidden' : 'visible',
     shadowColor: 'black',
@@ -63,7 +63,7 @@ const styles = StyleSheet.create({
     shadowRadius: 8,
   },
   innerContainer: {
-    borderRadius: 10,
+    borderRadius: 20,
     overflow: 'hidden',
   },
   buttonPressed: {
