@@ -1,16 +1,15 @@
 import { Text, View, StyleSheet } from 'react-native';
 
 function List({ data }) {
-  return data.map((dataPoint) => (
-    <View style={styles.listItem}>
-      <Text key={dataPoint} style={styles.itemText}>
-        {dataPoint}
-      </Text>
+  return data.map((dataPoint, index) => (
+    <View key={index} style={styles.listItem}>
+      <Text style={styles.itemText}>{dataPoint}</Text>
     </View>
   ));
 }
 
 export default List;
+
 const styles = StyleSheet.create({
   listItem: {
     borderRadius: 6,
